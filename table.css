@@ -1,0 +1,62 @@
+body{
+    background-color: #fff4cc;
+}
+
+h1 {
+    text-align: center;
+    margin: 20px 0;
+    font-size: 45px;
+    color:#025dbee1 ;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3); 
+}
+#worshipTableContainer {
+    width: 90%;
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 15px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2); 
+}
+
+#worshipTable {
+    width: 100%;
+    border-collapse: collapse;
+    text-align: center;
+    font-size: 25px;
+}
+
+#worshipTable thead tr {
+    background-color: #ffffff; 
+    color: #4a4a4a; 
+    font-weight: bold;
+    font-size: 1.2em;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); 
+}
+
+#worshipTable td, #worshipTable th {
+    padding: 12px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+#worshipTable tbody tr:nth-child(even) {
+    background-color: rgba(240, 240, 255, 0.8); 
+}
+
+#worshipTable tbody tr:nth-child(odd) {
+    background-color: rgba(255, 255, 255, 0.9); /
+}
+
+#worshipTable tbody tr:hover {
+    background-color: rgba(102, 153, 255, 0.2); 
+    transition: background-color 0.3s ease-in-out;
+}
+
+
+@media (max-width: 768px) {
+    #worshipTableContainer {
+        padding: 15px;
+    }
+    #worshipTable td, #worshipTable th {
+        font-size: 0.9em;
+    }}
